@@ -24,7 +24,7 @@ const Details = () => {
        dispatch(postComment({
         comment,
         id:_id,
-       userName,
+       userName:user.name,
        }))
        dispatch(detailsAction(id))
    }
