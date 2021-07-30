@@ -1,0 +1,24 @@
+.loader_container{
+    position: fixed;
+    top: 0;right: 0;left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &_item{
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+        border-bottom: .4rem dotted $green;
+        border-top: .4rem dotted $green;
+        border-left: .4rem dotted $green;
+        border-right: .4rem dotted $green;
+        animation: 6s loader linear infinite;
+        @keyframes loader {
+           
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+    }
+}

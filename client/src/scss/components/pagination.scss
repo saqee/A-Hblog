@@ -1,0 +1,26 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li{list-style: none;
+        display: block;
+        padding: 1rem;
+          border: 1px solid $green;
+          border-left: none;
+           &:first-child{
+            border-left: 1px solid $green;
+           }
+        
+      a{
+          text-decoration: none;
+          font-size: 1.4rem;
+          padding: 1rem;
+          
+      }
+    
+    }
+}
+.arrow{
+    color: $green;
+    font-size: 1.5rem;
+}

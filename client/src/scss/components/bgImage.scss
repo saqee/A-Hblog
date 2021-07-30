@@ -1,0 +1,18 @@
+.bgImage{
+    background-image: url('/images/201916769776917542.jpg');
+    width: 100%;
+    height: calc(100vh - 8rem);
+    background-size: cover;
+
+    @include responsive(mobile){
+        width: 0%;
+    height: 0;
+    }
+
+    @include responsive(tablet){
+        width: 100%;
+        display: block;
+    }
+
+   
+}

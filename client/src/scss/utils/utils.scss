@@ -1,0 +1,97 @@
+.container{
+ width: 1200px;
+ margin: 0 auto;
+ @include responsive(mobile){
+    width: 100%;
+   padding:0 1rem;
+}
+
+@include responsive(tablet){
+    width: 100%;
+   padding:0 1rem;
+}
+
+@include responsive(laptop){
+    width: 100%;
+   padding:0 1rem;
+}
+}
+.p-15{
+    padding: 3.2rem;
+}
+.mt-100{
+    margin-top: 10rem;
+}
+.mt-80{
+    margin-top: 8rem;
+}
+.previewImage{
+    width: 100%;
+}
+
+.previewImage img{
+    width: 100%;
+}
+.group{
+    margin-bottom: 1.3rem;
+
+    &_control{
+        width: 100%;
+        padding: 1.5rem;
+        border:none;
+        border-bottom: 2px solid transparent;
+        border-bottom-right-radius: .5rem;
+        outline: none;
+        background: $silver;
+        transition: all .5s ease;
+
+        &:focus{
+            border-bottom: 1px solid $green;
+        }
+    }
+   
+}
+.btn{
+    text-decoration: none;
+    outline: none;
+   
+    padding: 1rem;
+    border:none;
+    font-size: 1.9rem;
+    color: $white;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-default{
+    background-color:$green;
+}
+
+.btn-block{
+   width: 100%;
+}
+.form_heading{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 4rem;
+}
+.card{
+    background-color: $white;
+    padding: 1.5rem;
+}
+#image{
+    display: none;
+}
+.image_label{
+    display: block;
+    width: 100%;
+    background: #b2bec3;
+    color: $white;
+    padding: 1rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
